@@ -2,8 +2,6 @@ This is a simple task tracking in a single textfile.
 
 # TODO
 
-- Flash ATmega16U with anything, reflash with original firmware to verify board won't be bricked
-- Set up microcontroller as USB keyboard or serial
 - Toggle pin high/low with command over keyboard or USB serial
 - Determine circuit implementation details:
   - Transistor as a switch - possibly also use relay?
@@ -18,7 +16,8 @@ This is a simple task tracking in a single textfile.
 
 # In Progress
 
-- Breadboard VOX version of circuit w/ voltage dividers
+- Flash ATmega16U with anything, reflash with original firmware to verify board won't be bricked
+- Set up microcontroller as USB keyboard or serial
 
 # Done
 
@@ -29,3 +28,5 @@ This is a simple task tracking in a single textfile.
   - Transformer values (i.e. output voltage of Baofeng HT & mobile phone vs. expected input voltages)
   - Possibly build voltage divider version?  Any risks with this approach?
   - Notes: it looks like the isolation transformers are not necessary in this case, a simpler voltage divider approach should work, moved related tasks to done
+- Breadboard VOX version of circuit w/ voltage dividers
+  - Notes: took resistor/capacitor values from: [this cool writeup](http://www.creativedistraction.com/demos/sensor-data-to-iphone-through-the-headphone-jack-using-arduino/)
