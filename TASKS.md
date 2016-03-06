@@ -2,9 +2,11 @@ This is a simple task tracking in a single textfile.
 
 # TODO
 
+- Sketch VOX version of circuit in Eagle
 - Toggle pin high/low with command over keyboard or USB serial
 - Determine circuit implementation details:
   - Transistor as a switch - possibly also use relay?
+- Disassemble handset to see if it has any internal circuitry to be aware of for PTT switch
 - Purchase prototype parts
 - Build breadboard version of circuit
 - Build perfboard version of circuit
@@ -16,7 +18,7 @@ This is a simple task tracking in a single textfile.
 
 # In Progress
 
-- Set up microcontroller as USB keyboard or serial
+- Set up microcontroller as USB serial - echo back received character offset by 1
 
 # Done
 
